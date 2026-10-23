@@ -1,0 +1,27 @@
+{
+  "target_validation_recall": 0.5,
+  "selected_threshold": 0.379205,
+  "validation_period": "2021-2022",
+  "validation_metrics": {
+    "threshold": 0.379205,
+    "recall": 0.5,
+    "precision": 0.03167420814479638,
+    "tp": 7,
+    "fp": 214,
+    "fn": 7,
+    "tn": 3422,
+    "alerts": 221
+  },
+  "retrospective_test_period": "2023-2025 (previously examined)",
+  "retrospective_test_metrics": {
+    "threshold": 0.379205,
+    "recall": 0.2894736842105263,
+    "precision": 0.02736318407960199,
+    "tp": 11,
+    "fp": 391,
+    "fn": 27,
+    "tn": 5051,
+    "alerts": 402
+  },
+  "caution": "50% is a validation recall goal, not 50% accuracy or verified real-world flood detection. NOAA non-reports are not confirmed non-floods. Threshold calibration may differ after refitting."
+}

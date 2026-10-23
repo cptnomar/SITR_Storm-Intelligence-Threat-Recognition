@@ -1,0 +1,36 @@
+model,feature,importance
+Expanded (three locations),ml_max_daily_rainfall_in,0.1171298843274851
+Expanded (three locations),ml_avg_daily_rainfall_in,0.1014493161489402
+Expanded (three locations),ml_max_hourly_rainfall_in,0.0926302771100186
+Expanded (three locations),daily_rainfall_in,0.0831205196549946
+Expanded (three locations),max_hourly_rainfall_in,0.06378628694708788
+Expanded (three locations),ml_min_daily_rainfall_in,0.06181413621025909
+Expanded (three locations),ml_max_wind_gust_mph,0.059153307317541225
+Expanded (three locations),max_wind_gust_mph,0.05321857735017182
+Expanded (three locations),ml_rainfall_spread_in,0.0500338948176406
+Expanded (three locations),avg_soil_moisture,0.04706301255837468
+Expanded (three locations),max_gust_prior_day_mph,0.04684852383229657
+Expanded (three locations),ml_avg_soil_moisture,0.04543393751808623
+Expanded (three locations),rain_72h_prior_in,0.038615863523915286
+Expanded (three locations),soil_moisture_prior_day,0.035685638710221707
+Expanded (three locations),rain_48h_prior_in,0.03372467245792108
+Expanded (three locations),rain_24h_prior_in,0.028633456486591834
+Expanded (three locations),county_HARRIS,0.021226030038335494
+Expanded (three locations),county_MONTGOMERY,0.006763845460507808
+Expanded (three locations),county_BRAZORIA,0.006328380485010449
+Expanded (three locations),county_GALVESTON,0.004317057304466637
+Expanded (three locations),county_FORT BEND,0.0030233817401331274
+Original (one location),daily_rainfall_in,0.22496107612878147
+Original (one location),max_hourly_rainfall_in,0.17544759213720776
+Original (one location),max_wind_gust_mph,0.11391595577203505
+Original (one location),avg_soil_moisture,0.09211764991796279
+Original (one location),max_gust_prior_day_mph,0.07260966947703314
+Original (one location),soil_moisture_prior_day,0.06533457625735661
+Original (one location),rain_24h_prior_in,0.0643917576871318
+Original (one location),rain_72h_prior_in,0.06375725111515966
+Original (one location),rain_48h_prior_in,0.05779609556085916
+Original (one location),county_HARRIS,0.03693038839045747
+Original (one location),county_MONTGOMERY,0.009716091878450493
+Original (one location),county_BRAZORIA,0.008882732093506235
+Original (one location),county_GALVESTON,0.007612565132582212
+Original (one location),county_FORT BEND,0.0065265984514763405

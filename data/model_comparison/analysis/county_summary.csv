@@ -1,0 +1,6 @@
+county,test_county_days,reported_days,alerts,detected_reports,missed_reports,report_recall
+BRAZORIA,1096,0,13,0,0,
+FORT BEND,1096,0,39,0,0,
+GALVESTON,1096,5,45,1,4,0.2
+HARRIS,1096,13,68,3,10,0.23076923076923078
+MONTGOMERY,1096,20,6,1,19,0.05

@@ -1,0 +1,4 @@
+year,test_county_days,reported_days,alerts,detected_reports,missed_reports,report_recall
+2023,1825,11,52,3,8,0.2727272727272727
+2024,1830,23,66,2,21,0.08695652173913043
+2025,1825,4,53,0,4,0.0

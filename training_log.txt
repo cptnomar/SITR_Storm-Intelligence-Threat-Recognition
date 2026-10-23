@@ -1,0 +1,58 @@
+=== SITR EXTENDED MODEL TRAINING ===
+Rows excluded due to missing weather history: 15
+Train: 14590 rows, 142 reported county-days
+Test:  5480 rows, 38 reported county-days
+Train target dates: 2015-01-05 to 2022-12-31
+Test target dates:  2023-01-01 to 2025-12-31
+Weather and county inputs: daily_rainfall_in, max_hourly_rainfall_in, rain_72h_prior_in, avg_soil_moisture, county_BRAZORIA, county_FORT BEND, county_GALVESTON, county_HARRIS, county_MONTGOMERY
+
+--- Always-prior-probability baseline (threshold=0.50) ---
+Confusion matrix [[TN, FP], [FN, TP]]:
+[[5442    0]
+ [  38    0]]
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+Report prevalence: 0.0069
+Average precision (PR-AUC summary): 0.0069
+ROC-AUC: 0.5000
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00      5442
+           1       0.00      0.00      0.00        38
+
+    accuracy                           0.99      5480
+   macro avg       0.50      0.50      0.50      5480
+weighted avg       0.99      0.99      0.99      5480
+
+
+--- Random Forest (threshold=0.50) ---
+Confusion matrix [[TN, FP], [FN, TP]]:
+[[5218  224]
+ [  32    6]]
+Precision: 0.026 | Recall: 0.158 | F1: 0.045
+Report prevalence: 0.0069
+Average precision (PR-AUC summary): 0.0260
+ROC-AUC: 0.7625
+              precision    recall  f1-score   support
+
+           0       0.99      0.96      0.98      5442
+           1       0.03      0.16      0.04        38
+
+    accuracy                           0.95      5480
+   macro avg       0.51      0.56      0.51      5480
+weighted avg       0.99      0.95      0.97      5480
+
+
+Top feature importances (associations, not causation):
+daily_rainfall_in         0.3118
+max_hourly_rainfall_in    0.2462
+avg_soil_moisture         0.1867
+rain_72h_prior_in         0.1560
+county_HARRIS             0.0494
+county_MONTGOMERY         0.0155
+county_BRAZORIA           0.0131
+county_GALVESTON          0.0111
+county_FORT BEND          0.0103
+
+Saved model, predictions and metrics to: /mnt/data/sitr_simplified_model_results
+CAUTION: Unreported NOAA days are unknown, NOT verified flood-free days.
+This is an exploratory report-prediction experiment, not a safety warning system.

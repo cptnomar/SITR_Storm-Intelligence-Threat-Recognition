@@ -1,0 +1,39 @@
+{
+  "train_rows": 14590,
+  "test_rows": 5480,
+  "train_reported_days": 142,
+  "test_reported_days": 38,
+  "baseline": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "confusion_matrix": [
+      [
+        5442,
+        0
+      ],
+      [
+        38,
+        0
+      ]
+    ],
+    "average_precision": 0.006934306569343066
+  },
+  "random_forest": {
+    "precision": 0.029239766081871343,
+    "recall": 0.13157894736842105,
+    "f1": 0.04784688995215311,
+    "confusion_matrix": [
+      [
+        5276,
+        166
+      ],
+      [
+        33,
+        5
+      ]
+    ],
+    "average_precision": 0.024334595576898533
+  },
+  "threshold": 0.5
+}

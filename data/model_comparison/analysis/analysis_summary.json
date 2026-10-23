@@ -1,0 +1,11 @@
+{
+  "selected_model": "Random Forest",
+  "selected_threshold": 0.5,
+  "test_county_days": 5480,
+  "reported_county_days": 38,
+  "detected_reported_county_days": 5,
+  "missed_reported_county_days": 33,
+  "alerts_without_noaa_report": 166,
+  "consecutive_report_runs": 20,
+  "runs_with_at_least_one_detection": 4
+}
