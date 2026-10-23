@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SITR — Storm Intelligence & Threat Recognition
 
 **Historical flood exploration and experimental AI flood-report analysis for Harris County, Texas.**
@@ -162,3 +163,7 @@ When recent measurements are incomplete, the dashboard may substitute historical
 ---
 
 *Built as an educational flood-data visualization and machine-learning demonstration focused on Harris County, Texas.*
+=======
+# SITR_Storm-Intelligence-Threat-Recognition
+SITR is a Python/Streamlit dashboard combining historical weather observations, NOAA flood-event records, a geographic rainfall visualization, and a retrospective machine-learning analysis of recent weather. It was developed as an educational research and hackathon project.
+>>>>>>> 5b70310f0522498b3ddf8d809dc5ca662c924a0e
